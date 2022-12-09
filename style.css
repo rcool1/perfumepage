@@ -1,0 +1,124 @@
+/* 
+## Layout
+ widths:
+- Mobile: 375px
+- Desktop: 1440px
+
+## Colors
+### Primary
+- Dark cyan: hsl(158, 36%, 37%)
+- Cream: hsl(30, 38%, 92%)
+### Neutral
+- Very dark blue: hsl(212, 21%, 14%)
+- Dark grayish blue: hsl(228, 12%, 48%)
+- White: hsl(0, 0%, 100%)
+
+## Typography
+### Body Copy
+- Font size (paragraph): 14px
+### Font
+- Family: [Montserrat](https://fonts.google.com/specimen/Montserrat)
+- Weights: 500, 700
+- Family: [Fraunces](https://fonts.google.com/specimen/Fraunces)
+- Weights: 700 */
+
+.bg {
+  /* background-color: hsl(30, 38%, 92%); */
+  background-color: rgb(243, 234, 227);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 1440px;
+  height: 900px;
+}
+
+.intro {
+  display: flex;
+  width: 602px;
+  height: 448px;
+  background-color: white;
+  border-radius: 10px;
+}
+.images {
+  display: flex;
+}
+
+.texty {
+  display: flex;
+  flex-direction: column;
+  margin-left: 40px;
+  /* justify-content: space-between; */
+}
+
+.image-size {
+  width: 299px;
+  /* border-radius: 5px; */
+  border-radius: 10px 0 0 10px;
+}
+
+.perfume {
+  margin-top: 37px;
+  margin-bottom: 26px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
+  color: hsl(228, 12%, 48%);
+  font-size: 14px;
+}
+.gabrielle {
+  margin-bottom: 34px;
+  color: hsl(212, 21%, 14%);
+  font-size: 30px;
+  font-weight: bold;
+  width: 200px;
+  font-family: "Fraunces", serif;
+}
+.descrip {
+  margin-bottom: 40px;
+  color: hsl(228, 12%, 48%);
+  width: 250px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 10px;
+
+  /* font-size: 14px; */
+}
+
+.pricecontainer {
+  display: flex;
+  border-color: black;
+  margin-bottom: 20px;
+}
+.price {
+  color: hsl(158, 36%, 37%);
+  margin-right: 40px;
+  font-weight: bold;
+  font-family: "Fraunces", serif;
+}
+.oldprice {
+  color: hsl(228, 12%, 48%);
+  font-size: 10px;
+}
+.cart {
+  /* margin-bottom: 31px; */
+  color: white;
+  background-color: #1a4031;
+  height: 30px;
+  width: 200px;
+  border-radius: 10px;
+  border: none;
+  font-family: "Fraunces", serif;
+}
+
+.cart-container {
+  position: relative;
+}
+.cart-image {
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  left: 10px;
+  top: 10px;
+}
+.cart:hover {
+  cursor: pointer;
+}
